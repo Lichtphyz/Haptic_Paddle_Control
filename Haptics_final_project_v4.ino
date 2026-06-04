@@ -23,7 +23,6 @@ const byte ledPin = 13;
 
 int torque = 0;
 int oldTorque = 0;
-int maxTorque = 30;
 
 int seeking_torque_quantized = 80; // originally 50, changed to 80 per Lab 4 Task 1 instructions (JK 5/19)
 bool direction = 1;   // 1 = clockwise, 0 = counterclockwise
